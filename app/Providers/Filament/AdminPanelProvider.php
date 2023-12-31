@@ -59,7 +59,7 @@ class AdminPanelProvider extends PanelProvider
                     ->icon('heroicon-o-presentation-chart-line')
                     ->group('Blog Module')
                     ->label('Blog')
-                    ->url('blog/admin/posts'),
+                    ->url('blog/admin'),
                 NavigationItem::make('company')
                     ->icon('heroicon-o-presentation-chart-line')
                     ->group('Company Module')
